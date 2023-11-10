@@ -85,7 +85,7 @@ const TriviaFlashcards: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="projects">
       <h1>Trivia Flashcards</h1>
       <p>Score: {score}/{currentIndex}</p>
       <div>
@@ -145,7 +145,7 @@ const TriviaFlashcards: React.FC = () => {
                   </ul>
                 )}
               </div>
-              <div className="card-back">
+              <div className="card-back" >
                 <p>Your Answer: {selectedAnswer}</p>
                 <p>Correct Answer: {flashcards[currentIndex].correct_answer}</p>
               </div>
